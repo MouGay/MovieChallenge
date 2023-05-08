@@ -1,4 +1,5 @@
 import React from 'react';
+//esto nos permite crear el root
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';

@@ -16,5 +16,5 @@ function App() {
     </div>
   );
 }
-
+//componente app
 export default App;
