@@ -46,6 +46,14 @@ const MovieSearch = () => {
             
                 return (<ShowMovie Poster={currentMovie.Poster} Title={currentMovie.Title} />);
             })  : ""}</div>
+
+            <div> {
+                infoPeliculas.length > 0 &&
+                infoPeliculas.map((elemento) => {
+                    return (<ShowMovie Poster={elemento.Poster} Title={elemento.Title}></ShowMovie>);
+                
+                })
+            }</div>
         </div>
     ); 
 }
